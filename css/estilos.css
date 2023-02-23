@@ -1,0 +1,463 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400);
+
+html{
+	font-size: 90%;
+}
+
+body {
+	background-color: #e0e1e1;
+	font-family: "Roboto", sans-serif;
+	overflow-x: hidden;
+	margin: 0 auto;
+}
+
+
+.headerPrincipal-banner{
+	background-image: url("../imagenes/fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    padding: 50px;
+}
+
+.banner{
+	height: 200px;
+	width: 55%;
+	margin:0 auto;
+    padding: 50px;
+	background-color: #c4c4c4;
+	opacity: 0.9;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 0.5rem;
+}
+
+.tituloBanner{
+	font-size: 3rem;
+	text-transform: capitalize;
+}
+.subtituloBanner{
+	font-size: 2rem;
+}
+
+.tituloBanner,.subtituloBanner{
+	font-style: oblique;
+	color:white;
+	font-weight: 700;
+	-webkit-text-stroke: 0.5px lightgray;
+}
+
+.contenedor {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.headerPrincipal {
+	width: 100%;
+	background-color: #FFF;
+}
+
+
+.headerPrincipal .contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.headerPrincipal-nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.headerPrincipal-titulo {
+	font-weight: bold;
+	font-size: 2em;
+	margin-bottom: 20px;
+
+}
+
+.headerPrincipal-titulo a {
+	text-decoration: none;
+	color: inherit;
+    margin: 50px;
+}
+
+.headerPrincipal-nav-link {
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 0.3rem;
+	color: #9799A6;
+	background-color: #FFF;
+	text-decoration: none;
+	transition: .5s;
+	display: block;
+	font-size: 20px;
+}
+
+.headerPrincipal-nav-link:hover {
+	color: #FFF;
+	background-color: #007daa;
+}
+
+
+.contenidoPrincipal {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/** INICIO **/
+
+.sobreMi {
+	margin:0 auto;
+	background-color: #007daa;
+	padding: 25px 0;
+	border-radius:0.5rem;
+	width:90%;
+}
+
+.sobreMi-foto {
+	width: 50%;
+    height: 500px;
+	padding:10px;
+	border-radius: 50%;
+}
+
+
+.sobreMi .contenedor {
+	color: #FFF;
+    display: flex;
+} 
+
+.sobreMi-sobre-titulo {
+	font-size: 1.2em;
+	font-weight: bolder;
+}
+
+.sobreMi-detalles {
+    margin-left: 20px;
+    width: 70%;
+	font-size: 1.3em;
+	line-height: 2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.span-nombre{
+	font-weight: bold;
+}
+
+.span-nombre:hover{
+	color: #dff071;
+}
+
+.enlace-linkedin{
+	text-decoration: none;
+	color:#FFF;
+}
+
+.enlace-linkedin:hover{
+	font-weight: bolder;
+	color:#deff08;
+}
+
+
+.sobreMi-button {
+	margin: 0 auto;
+	border-radius: 0.5rem;
+	background-color:#ea563f;
+	color: #FFF;
+	border: none;
+    width: 30%;
+	height: 60px;
+	font-size: 20px;
+	outline: none;
+}
+
+.sobreMi-button:hover{
+	background-color: #ff4427;
+	transition: 0.5s;
+	border: 2px solid grey;
+	cursor: pointer;
+}
+
+/****************/
+/** PROYECTOS **/
+
+
+.portfolio-contenido{
+	margin:0 auto;
+	background-color: #00aa8b;
+	padding: 25px;
+	border-radius:0.5rem;
+	width:90%;
+	display: flex;
+	flex-direction: row;
+}
+
+.portfolio-proyecto{
+	width: 30%;
+}
+
+.h2-proyecto{
+	color: #FFF;
+}
+
+.vistaPrevia-proyecto{
+	width: 80%;
+	height: 150px;
+	border-radius: 0.5rem;
+	border: 2px solid black;
+}
+
+.vistaPrevia-proyecto:hover{
+	border: 2px solid white;
+}
+
+.h2-github{
+	text-align: center;
+	color: gray;
+}
+.enlace-github{
+	text-decoration: none;
+	color: gray;
+}
+
+.enlace-github:hover{
+	color: black;
+}
+
+/****************/
+/** CONTACTO **/
+
+.h2-contacto{
+	text-align: center;
+	padding:20px;
+	color: #666666;
+}
+
+.barra-contacto{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;	
+	margin-bottom: 50px;
+}
+
+.box-contact-features {
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+}
+
+.btn-whatsapp{
+	display: block !important;
+	position: fixed;
+	z-index: 9999999;
+	bottom: 20px;
+	right: 20px;
+	cursor: pointer;
+	border-radius:100px !important;
+}
+
+.btn-whatsapp:hover{
+	border-radius:100px !important;
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(7,94,84,1); 
+	-moz-box-shadow: 0px 0px 15px 0px rgba(7,94,84,1);
+	box-shadow: 0px 0px 15px 0px rgba(7,94,84,1);
+	transition-duration: 1s;
+} 
+
+/** FORMULARIO **/
+
+form{
+  padding: 60px;
+  max-width: 60%;
+  background-color: #9f9f9f;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+}
+
+form input, form textarea{
+  margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box; 
+  border: none; 
+  color: #525c66; 
+  font-size: 1em;
+  resize: none; 
+  border-radius: 0.3rem;
+}
+
+form button {
+	display: block;
+	background-color: #0095eb;
+	padding: 10px 45px 10px 45px;
+	border: 0;
+	font-size: 1em; 
+	color: 	white;
+  	font-family: "Roboto", sans-serif;
+	border-radius: 0.5rem;
+}
+form button:hover{
+	background-color: #046193;
+}
+textarea {  resize: none;}
+
+
+/**************/
+
+/** FOOTER **/
+.main-footer {
+	background-color: #FFF;
+    height: 80px;
+    width: 100%;
+	padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main-footer p {
+    text-align: center;
+	font-size: 12px;
+}
+
+
+
+/** DISEÑO RESPONSIVE **/
+
+@media(max-width: 768px) {
+
+	/** HEADER **/
+
+	.banner{
+		height: 300px;
+	}
+
+	.headerPrincipal{
+		width: 100%;
+		padding-top: 10px;
+	}
+
+    .headerPrincipal-titulo{
+        text-align: center;
+    }
+
+    .headerPrincipal .contenedor {
+        flex-direction: column;
+		align-items: initial;
+        text-align: center;
+    }
+
+    .headerPrincipal-nav {
+        flex-direction: column;
+        text-align: center;
+		width: 100%;
+    }
+
+	/***************/
+	/** INICIO **/
+
+    .sobreMi .contenedor {
+        flex-direction: column;
+    }
+
+    .sobreMi-foto{
+        width: 100%;
+        height: 400px;
+		padding:0;
+    }
+    .sobreMi-detalles{
+        width: 100%;
+        margin: 0;
+    }
+	.sobreMi-texto{
+		font-size: 20px;
+	}
+
+	.contenedor {
+		width: 90%;
+		margin:0 auto;
+	}
+
+	.headerPrincipal-nav-link:hover {
+		color: #FFF;
+		background-color: #9799A6;
+		border-bottom: 1px solid #9799A6; 
+	}
+
+	.headerPrincipal-titulo {
+		margin: 0 auto;
+	}
+
+	.headerPrincipal-nav {
+		padding-top: 10px;
+		width: 100%;
+	}
+
+	.headerPrincipal-banner{
+		height:450px;
+	}
+
+	.sobreMi-button,.pasatiempos-button {
+		margin-top: 10px;
+		width: 100%;
+	}
+
+	/***************/
+	/** PROYECTOS **/
+
+	.portfolio-contenido{
+		width: 85%;
+		flex-direction: column;
+	}
+
+	.h2-proyecto{
+		text-align: center;
+	}
+
+	.vistaPrevia-proyecto{
+		width: 100%;
+		margin:0 auto;
+	}
+
+	.portfolio-proyecto{
+		width: 100%;
+	}
+
+
+	/***************/
+	/** CONTACTO **/
+
+	.barra-contacto{
+		flex-direction: column;
+	}
+	.box-contact-features{
+		width: 90%;
+	}
+
+	form{
+		max-width: 100%;
+		padding:10%;
+	}
+
+	form button{
+		width: 100%;
+	}
+
+	/***************/
+	/** FOOTER **/
+	.main-footer {
+        height: 50px;
+        width: 100%;
+	}
+	.main-footer p {
+		margin-right: 10%;
+	}
+}
+

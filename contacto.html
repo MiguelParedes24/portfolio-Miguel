@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script type="text/JavaScript" src="js/modernizr.js"></script>
+
+    <title>Portfolio | Contacto</title>
+</head>
+
+<body>
+    <header class="headerPrincipal">
+        <div class="contenedor">
+
+            <h1 class="headerPrincipal-titulo">
+                <a href="index.html">MP</a>
+            </h1>
+
+            <nav class="headerPrincipal-nav">
+                <a class="headerPrincipal-nav-link" href="index.html">Inicio</a>
+                <a class="headerPrincipal-nav-link" href="proyectos.html">Proyectos</a>
+                <a class="headerPrincipal-nav-link" href="contacto.html">Contacto</a>
+            </nav>
+
+        </div>
+
+        <div class="headerPrincipal-banner">
+            <div class="banner">
+                <h1 class="tituloBanner">Soy Miguel Paredes</h1>
+                <h2 class="subtituloBanner">Contacto</h2>
+            </div>
+        </div>
+
+    </header>
+    <main class="contenidoPrincipal">
+        <div class="contenedor">
+            <section class="contacto">
+
+                <h2 class="h2-contacto">Si te gusta mi trabajo, no dude en ponerse en contacto conmigo.</h2>
+
+                <div class="barra-contacto">
+                    <div class="box-contact-features">
+                        <i class="fas fa-map-marker-alt fa-2x"></i>
+                        <h4>Dirección</h4>
+                        <p>Francisco Luque 1246</p>
+                        <p>Comodoro Rivadavia, Chubut</p>
+                    </div>
+                    <div class="box-contact-features">
+                        <i class="fas fa-mobile-alt fa-2x"></i>
+                        <h4>Telefono</h4>
+                        <p>Movil: +54 297 5949959</p>
+                    </div>
+                    <div class="box-contact-features">
+                        <i class="fas fa-envelope fa-2x"></i>
+                        <h4>Email</h4>
+                        <p>Trabajo: paredes94miguel@gmail.com</p>
+                    </div>
+                </div>
+            </section>
+            <section class="contacto-formulario">
+                <h2 class="h2-contacto">Puedes enviarme un mensaje completando el siguiente formulario!</h2>
+                <form action="" method="post">
+                    <input name="nombre" type="text" placeholder="Nombre [Requerido]" maxlength="30" pattern="[a-zA-Z0-9]+" required/>
+                    <input name="email" type="email" placeholder="Correo electrónico [Requerido]" required />
+                    <textarea name="consulta" placeholder="Aquí tu mensaje..." rows="6"
+                        required></textarea>
+                    <button id="enviar" name="enviar" type="submit" class="btn" onclick="alert('Formulario a modo ilustrativo, disculpe las molestias.');">ENVIAR</button>
+                </form>
+            </section>
+    </main>
+
+
+    <br>
+
+    <footer class="main-footer">
+        <div class="main-footer-contenedor">
+            <p>Miguel Paredes Portfolio 2023 &copy;</p>
+        </div>
+    </footer>
+
+    <!-- Boton whatsapp-->
+    <img class="btn-whatsapp" src="https://clientes.dongee.com/whatsapp.png" width="64" height="64" alt="Whatsapp" onclick="window.location.href='https://wa.me/542975949959?text=Hola Miguel!%20Estoy%20interesado%20en%20tu%20servicio'">
+    <!-- Boton whatsapp-->
+
+</body>
+
+</html>
